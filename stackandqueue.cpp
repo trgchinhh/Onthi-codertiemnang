@@ -14,7 +14,7 @@ void vongxoayloaitru(int a[], int n, int k){
         q.push(a[i]);
     }
     while(q.size()>1){
-        for(int i = 1; i < k; i++){
+        for(int i = 0; i < k - 1; i++){
             q.push(q.front());
             q.pop();
         }
